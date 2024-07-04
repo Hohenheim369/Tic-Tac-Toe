@@ -1,0 +1,23 @@
+table {
+    width: 400px; /* Breite der Tabelle */
+    height: 400px; /* Höhe der Tabelle */
+    margin: 20px auto; /* Zentriert die Tabelle horizontal */
+    border-collapse: collapse;
+    border: 2px solid black; /* Optional: Rahmen um die Tabelle */
+}
+
+ td {
+    width: 100px;
+    height: 100px; /* Höhe der Zelle */
+    text-align: center;
+    font-size: 36px; /* Schriftgröße anpassen */
+    border: 1px solid black; /* Optional: Rahmen um die Zellen */
+}
+
+td {
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: lightgray;
+}
